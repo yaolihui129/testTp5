@@ -1,0 +1,54 @@
+---------------------------------------------------------------
+[ 2017-05-31T13:16:05+08:00 ] ::1 ::1 GET /testTP5/public/
+[ info ] localhost/testTP5/public/ [运行时间：0.111006s][吞吐率：9.01req/s] [内存消耗：136.80kb] [文件加载：25]
+[ info ] [ LANG ] F:\xampp\htdocs\testTp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\xampp\htdocs\testTp5\app\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-31T13:16:22+08:00 ] 192.168.21.214 192.168.21.214 GET /testTP5/public/
+[ info ] 192.168.21.214/testTP5/public/ [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：135.85kb] [文件加载：25]
+[ info ] [ LANG ] F:\xampp\htdocs\testTp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.21.214',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_4c790a1cf093e3632a695d5e82587605=1493863462; _ga=GA1.1.1912091484.1493863462; JSESSIONID=C0E31416A4EB788BA9A3BAE801A32183',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\xampp\htdocs\testTp5\app\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
