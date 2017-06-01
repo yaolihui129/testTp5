@@ -1,4 +1,5 @@
 <?php
+use think\Env;
 return [
     // 数据库类型
     'type'            => 'mysql',
