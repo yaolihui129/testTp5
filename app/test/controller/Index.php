@@ -1,10 +1,9 @@
 <?php
 namespace app\test\controller;
 
-class Index
-{
-    public function index()
-    {
-        dump(input('id'));
+class Index  extends Common{
+    public function index(){
+
+        return $this->fetch();
     }
 }
